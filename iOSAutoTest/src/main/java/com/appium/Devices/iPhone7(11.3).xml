@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+    <parameter name="deviceName" value="iPhone7"/>
+    <parameter name="platformVersion" value="11.3"/>
+    <parameter name="port" value="4725"/>
+    <parameter name="udid" value="7e42a59072cc84e3eeb082f0af6c7837bc4552a4"/>
+    <test name="Test">
+        <classes>
+            <class name="com.appium.Test.NewTest">
+                <methods>
+                    <include name="TestCase3"></include>
+                </methods>
+            </class>
+
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

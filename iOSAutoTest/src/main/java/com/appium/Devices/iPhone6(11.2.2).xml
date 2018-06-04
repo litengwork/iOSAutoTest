@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+    <parameter name="deviceName" value="Potho"/>
+    <parameter name="platformVersion" value="11.2.2"/>
+    <parameter name="port" value="4723"/>
+    <parameter name="udid" value="65130f5b9a17e7476c90cb4cb7ed0aab6acee33a"/>
+    <test name="Test">
+        <classes>
+            <!--需要测试的case文件-->
+            <class name="com.appium.Test.NewTest">
+                <methods>
+                    <!--case的方法-->
+                    <include name="TestCase3"></include>
+                </methods>
+            </class>
+
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

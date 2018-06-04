@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18197" started-at="2018-06-01T04:57:48Z" finished-at="2018-06-01T04:58:06Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="18197" started-at="2018-06-01T04:57:48Z" finished-at="2018-06-01T04:58:06Z">
+      <class name="com.appium.Test.NewTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.appium.Test.NewTest@1ed4004b]" name="setUp" is-config="true" duration-ms="5110" started-at="2018-06-01T04:57:48Z" finished-at="2018-06-01T04:57:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Potho]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.2.2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[65130f5b9a17e7476c90cb4cb7ed0aab6acee33a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TestCase3()[pri:0, instance:com.appium.Test.NewTest@1ed4004b]" name="TestCase3" duration-ms="12737" started-at="2018-06-01T04:57:53Z" finished-at="2018-06-01T04:58:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.appium.Test.NewTest@1ed4004b]" name="tearDown" is-config="true" duration-ms="338" started-at="2018-06-01T04:58:06Z" finished-at="2018-06-01T04:58:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.appium.Test.NewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
